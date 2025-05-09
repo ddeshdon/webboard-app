@@ -23,7 +23,7 @@ const AfterLoginHeader = () => {
           "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif",
       }}
     >
-      {/* Left: Logo */}
+      {/* Left: aLogo */}
       <Link to="/Main" style={{ textDecoration: "none" }}>
   <h2
     style={{
@@ -40,7 +40,7 @@ const AfterLoginHeader = () => {
 </Link>
 
 
-      {/* Right: Greeting + Buttons */}
+      {/* Right: Greeting and w Buttons */}
       <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
         <span style={{ fontWeight: "500", fontSize: "1rem", color: "#333" }}>
           Hi, <span style={{ fontWeight: "bold" }}>{user?.displayName || user?.email || "Guest"} 👋 </span>

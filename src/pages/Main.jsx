@@ -14,8 +14,8 @@ export default function Main() {
   useEffect(() => {
     const img = new Image();
     img.src = '/webboard-app/menureal.jpg';
-    img.onload = () => console.log("✅ Background image loaded");
-    img.onerror = () => console.log("❌ Failed to load background image");
+    img.onload = () => console.log(" Background image loaded");
+    img.onerror = () => console.log(" Failed to load background image");
   }, []);
 
   const [search, setSearch] = useState("");
